@@ -1,4 +1,4 @@
-package com.gold.algorithm.pojo;
+package com.gold.algorithm.learnblock.binarytree.pojo;
 
 import com.google.common.collect.Lists;
 import lombok.Data;

@@ -1,6 +1,7 @@
-package com.gold.algorithm;
+package com.gold.algorithm.learnblock.binarytree;
 
-import com.gold.algorithm.pojo.TreeNode;
+
+import com.gold.algorithm.learnblock.binarytree.pojo.TreeNode;
 
 import java.util.Stack;
 
