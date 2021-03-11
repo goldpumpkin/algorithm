@@ -14,10 +14,6 @@ public class StringToUrlLcci {
     /**
      * 我的第一次解法 - 超时 Fail
      * 反思：没有理解题目的意思
-     *
-     * @param s
-     * @param length
-     * @return
      */
     public String replaceSpaces(String s, int length) {
         StringBuilder result = new StringBuilder();
@@ -75,9 +71,6 @@ public class StringToUrlLcci {
 
     /**
      * 减少了一次字符数组的copy
-     * @param s
-     * @param length
-     * @return
      */
     public String replaceSpace3(String s, int length) {
         char[] result = new char[s.length()];
@@ -94,6 +87,9 @@ public class StringToUrlLcci {
         return String.valueOf(result, 0, newIndex);
     }
 
+    /**
+     * while 替换 for 发现内存使用少了点
+     */
     public String replaceSpace4(String s, int length) {
         char[] result = new char[s.length()];
         int newIndex = 0;
