@@ -21,4 +21,9 @@ public class Node {
         this.data = data;
         this.next = next;
     }
+
+    public Node(Object data) {
+        this.data = data;
+        this.next = null;
+    }
 }
