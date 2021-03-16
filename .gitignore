@@ -1,0 +1,15 @@
+target/
+.project
+.settings
+.classpath
+log/
+
+.idea/
+*.iml
+application-*.properties
+deploy.sh
+.DS_Store
+json-format.json
+pom.xml.versionsBackup
+logback-spring-dev.xml
+logback-test-spring.xml
