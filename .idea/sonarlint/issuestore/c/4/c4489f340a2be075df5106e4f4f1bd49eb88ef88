@@ -1,13 +1,0 @@
-
-g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«†È§ýÿÿÿÿ
-t
-java:S3776f"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(å¯°æýÿÿÿÿ8ªÜ§®‚/
-<
-java:S1659k"Declare "r" on a separate line.(·â±8›‘ë­‚/
-u	java:S135l"YReduce the total number of break and continue statements in this loop to use at most one.(Žÿ±š8‰›÷­‚/
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÅÌö‰ÿÿÿÿÿ8è÷™­‚/
-F
-java:S1659—"#Declare "right" on a separate line.(Ï¶ì„ûÿÿÿÿ8ƒ°Ò®‚/
-<
-java:S1659"Declare "r" on a separate line.(·â±8è÷™­‚/

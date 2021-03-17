@@ -1,26 +1,0 @@
-
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(«ƒÁ·úÿÿÿÿ8£¦àªƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(™¦ºª8µÊÛªƒ/
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(†ÕÊèıÿÿÿÿ8¼î…«ƒ/
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(Û»®İ8¼î…«ƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨ñ©øÿÿÿÿ8Ãœçªƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÆÇâÈıÿÿÿÿ8»¿Š«ƒ/
-U	java:S106,"9Replace this use of System.out or System.err by a logger.(èÓØî8¼î…«ƒ/
-Z	java:S106-"9Replace this use of System.out or System.err by a logger.(ŞûÓŸûÿÿÿÿ8¼î…«ƒ/
-U	java:S1063"9Replace this use of System.out or System.err by a logger.(´è‚‰8¼î…«ƒ/
-Z	java:S106""9Replace this use of System.out or System.err by a logger.(¨ñ©øÿÿÿÿ8öîªƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ó×‘‚8·æåªƒ/
-U	java:S1065"9Replace this use of System.out or System.err by a logger.(´è‚‰8¼î…«ƒ/
-Z	java:S106!"9Replace this use of System.out or System.err by a logger.(»±êÅûÿÿÿÿ8¸ìíªƒ/
-‚
-java:S1192"`Define a constant instead of duplicating this literal "circularQueue dequeue, result: " 4 times.(¨ñ©øÿÿÿÿ8áÆïªƒ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¼÷Ãö8òÙÑªƒ/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(¬›«—ûÿÿÿÿ8¼î…«ƒ/
-Z	java:S106$"9Replace this use of System.out or System.err by a logger.(¨ñ©øÿÿÿÿ8áÆïªƒ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(–°ÀÍúÿÿÿÿ8Ğ‡Öªƒ/
-U	java:S106*"9Replace this use of System.out or System.err by a logger.(¥ôä8¼î…«ƒ/
-U	java:S1060"9Replace this use of System.out or System.err by a logger.(´è‚‰8¼î…«ƒ/
-Z	java:S106#"9Replace this use of System.out or System.err by a logger.(¨ñ©øÿÿÿÿ8áÆïªƒ/
-~
-java:S11920"aDefine a constant instead of duplicating this literal "circularQueue2 dequeue, result: " 4 times.(´è‚‰8–ˆ«ƒ/
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(´è‚‰8¼î…«ƒ/
