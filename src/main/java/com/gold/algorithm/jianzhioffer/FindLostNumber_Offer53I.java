@@ -1,4 +1,4 @@
-package com.gold.algorithm.leetcode;
+package com.gold.algorithm.jianzhioffer;
 
 /**
  * @author goldhuang
