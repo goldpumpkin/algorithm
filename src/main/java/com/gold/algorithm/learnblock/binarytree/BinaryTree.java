@@ -3,7 +3,9 @@ package com.gold.algorithm.learnblock.binarytree;
 
 import com.gold.algorithm.learnblock.binarytree.pojo.TreeNode;
 
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -39,6 +41,10 @@ public class BinaryTree {
 
         nonRecursivePre(root);
 
+        System.out.println();
+        System.out.println("--------------------------");
+
+        sequence(root);
     }
 
     /**
@@ -128,10 +134,37 @@ public class BinaryTree {
     }
 
     /**
+     * todo
      * 非递归 - 后序遍历
      * @param root
      */
     public static void nonRecursivePost(TreeNode root) {
 
+    }
+
+    /**
+     * 层序遍历: 队列
+     * @param root
+     */
+    public static void sequence(TreeNode root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode poll = queue.poll();
+            System.out.print(poll.getVal());
+
+            if (poll.getLeft() != null) {
+                queue.add(poll.getLeft());
+            }
+
+            if (poll.getRight() != null) {
+                queue.add(poll.getRight());
+            }
+        }
     }
 }
