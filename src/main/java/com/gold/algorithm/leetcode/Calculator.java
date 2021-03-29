@@ -45,7 +45,7 @@ public class Calculator {
 
 
     /**
-     *
+     * 思路一： 双栈
      */
     public static int calculate(String s) {
         if (s == null) {
@@ -117,5 +117,12 @@ public class Calculator {
 
         return result;
     }
+
+    /**
+     * todo 实现
+     * 思路二：
+     * 1. 一个数字栈：+ - 符号和数字是一个整体， * / 是真正的运算符号
+     * 2. 清空栈计算
+     */
 
 }
