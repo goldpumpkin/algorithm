@@ -4,7 +4,6 @@ package com.gold.algorithm.learnblock.binarytree;
 import com.gold.algorithm.learnblock.binarytree.pojo.TreeNode;
 
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
 import java.util.Stack;
 
@@ -45,6 +44,10 @@ public class BinaryTree {
         System.out.println("--------------------------");
 
         sequence(root);
+
+        System.out.println();
+        System.out.println("--------------------------");
+
     }
 
     /**
@@ -167,4 +170,5 @@ public class BinaryTree {
             }
         }
     }
+
 }
