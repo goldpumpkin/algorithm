@@ -32,11 +32,6 @@ public class Heap {
 
         }
         System.out.println(Arrays.stream(numsCopy).mapToObj(String::valueOf).collect(Collectors.joining(",")));
-
-        int tesst = 1;
-        System.out.println(tesst);
-        int re = tesst + 1;
-
     }
 
     /**
