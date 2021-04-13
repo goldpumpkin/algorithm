@@ -66,4 +66,21 @@ public class KthLargestElementInAnArray215 {
         return j;
     }
 
+    /**
+     * 方法二：排序前K个元素 ———— 比较暴力
+     */
+    public static int findKthLargest2(int[] nums, int k) {
+        for (int i = 0; i < k; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[j] > nums[i]) {
+                    int tmp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = tmp;
+                }
+            }
+        }
+
+        return nums[k - 1];
+    }
+
 }
