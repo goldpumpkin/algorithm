@@ -1,5 +1,7 @@
 package com.gold.algorithm.learnblock.sort;
 
+import java.util.Arrays;
+
 /**
  * @author goldhuang
  * @Description: 插入排序
@@ -13,20 +15,19 @@ public class InsertionSort {
 
     public static void main(String[] args) {
         int[] ints = {4, 5, 7, 1, 10, 2, 9, 3};
-        int[] sort = sort(ints, ints.length);
-        for (int o : sort) {
-            System.out.println(o);
-
-        }
+        final int[] ints1 = sort1(ints);
+        Arrays.stream(ints1).forEach(System.out::println);
     }
 
     /**
      * 插入排序
+     * 这是第一次学习的时候自己写的
      *
      * @param data 待排序数组
      * @param n    待排序数组长度
      * @return 有序数组
      */
+    @Deprecated
     public static int[] sort(int[] data, int n) {
         for (int i = 1; i < n; i++) {
             int value = data[i];
@@ -44,4 +45,21 @@ public class InsertionSort {
 
         return data;
     }
+
+    public static int[] sort1(int[] data) {
+        for (int i = 1; i < data.length; i++) {
+            int r = data[i];
+            int j = i - 1;
+            for (; j >= 0; --j) {
+                if (r < data[j]) {
+                    data[j + 1] = data[j];
+                } else {
+                    break;
+                }
+            }
+            data[j + 1] = r;
+        }
+        return data;
+    }
+
 }
