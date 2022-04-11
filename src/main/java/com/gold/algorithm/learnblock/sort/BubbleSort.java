@@ -6,8 +6,8 @@ package com.gold.algorithm.learnblock.sort;
  * 最优复杂度: O(n)
  * 最差复杂度：O(n^2)
  * 平均复杂度：O(n^2) --- 逆序度 = 满虚度 - 现在的有序度 这里的逆序度就是要交换的次数
- *    满有虚度 - n*(n-1)/2
- *    现有虚度：
+ *    满有序度 - n*(n-1)/2
+ *    现有序度：
  *      最好情况下：n*(n-1)/2
  *      最坏情况下：0
  * 稳定排序
@@ -15,8 +15,8 @@ package com.gold.algorithm.learnblock.sort;
  */
 public class BubbleSort {
 
-    public static int[]  sort(int[] data) {
-        for (int i = 0; i < data.length; i++) {
+    public static int[] sort(int[] data) {
+        for (int i = 0; i < data.length - 1; i++) {
             boolean flag = true;
             for (int j = 0; j < data.length - 1; j++) {
                 if (data[j] > data[j + 1]) {
