@@ -36,7 +36,9 @@ public class QuickSort {
     }
 
     /**
-     * 两个指针 i-小于 pivot 的元素并做替换 j-指向大于等于 pivot 的元素
+     * 两个指针
+     * i-小于 pivot 的元素并做替换
+     * j-指向大于等于 pivot 的元素
      */
     public static int findPivot(int[] data, int start, int end) {
         int pivot = data[end];
