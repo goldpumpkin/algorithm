@@ -71,21 +71,21 @@ public class SmallestK_Interview_17 {
             return arr;
         }
 
-        heapify1(arr, 0, k - 1);
+        heapify1(arr, k - 1);
 
         for (int i = k; i < arr.length; i++) {
             int n = arr[i];
             if (n < arr[0]) {
                 arr[0] = n;
-                heapify1(arr, 0, k - 1);
+                heapify1(arr, k - 1);
             }
         }
 
         return Arrays.copyOf(arr, k);
     }
 
-    private void heapify1(int[] data, int s, int e) {
-        for (int i = (e - 1) / 2; i >= s; i--) {
+    private void heapify1(int[] data, int e) {
+        for (int i = (e - 1) / 2; i >= 0; i--) {
             compareAndSwap(data, i, e);
         }
     }
